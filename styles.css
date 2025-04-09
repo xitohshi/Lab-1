@@ -9,7 +9,6 @@ body{
     justify-content: space-evenly;
     background-color: rgb(76, 189, 151);
     color: white;
-    
 }
 
 h1{
@@ -62,7 +61,7 @@ li{
     margin-right: auto;
 }
 
-.nostyle{
+a:(.no-style){
     color: white;
     text-decoration: none;
 }
