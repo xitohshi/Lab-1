@@ -2,11 +2,6 @@ body{
     background-color: rgb(253, 242, 221);
 }
 
-a:not(.no-style){
-    color: white;
-    text-decoration: none;
-}
-
 .flex-container{
     display: flex;
     flex-direction: row;
@@ -14,6 +9,11 @@ a:not(.no-style){
     justify-content: space-evenly;
     background-color: rgb(76, 189, 151);
     color: white;
+}
+
+.text-link{
+    color: rgb(151, 114, 67);
+    text-decoration: none;
 }
 
 h1{
@@ -45,6 +45,12 @@ image{
     min-width: auto;
 }
 
+.center{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
@@ -59,22 +65,14 @@ li{
     text-align: left;
 }
 
-.center{
-    margin-left: auto;
-    margin-right: auto;
+table{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(193, 154, 104);
+    text-align: left;
 }
 
-a:link{
-    color: rgb(151, 117, 74);
-    text-decoration: none;
-}
-
-a:visited{
-    color: rgb(151, 117, 74);
-    text-decoration: none;
-}
-
-a:hover{
-    color: rgb(151, 117, 74);
+a{
+    color: white;
     text-decoration: none;
 }
