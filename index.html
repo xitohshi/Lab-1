@@ -6,7 +6,6 @@
         <Title>
             Pet Grooming Serivce
         </Title>
-        <script src="C:\Users\sykim\OneDrive\Documents\Lab-1\webcomm\Lab-1\javascript.js"></script>
     </head>
     <body>
         <div>
@@ -33,11 +32,16 @@
             <h1>
                 Welcome
             </h1>
+                <div class="center">
+                    <p class="smalltext" id="alertme">
+                        Try clicking me for a quick message!
+                    </p>
+                </div>
             <div class="center">
                 <img src="cat-fur-shaving.jpg" width="500px">
                 <img src="dog-fur-brushing.jpg" width="500px">
             </div>
-               <div >
+               <div>
                     <p class="center">
                         This establishment offers a wide variety of services for dogs and cats that need a nice day of getting pampered. </br>
                         Come visit our establishment by booking an appointment with us! You can start by:
@@ -91,7 +95,7 @@
                     Book an Appointment with us!
                 </h3>
                     <p class="center">
-                        <a href="appointment.html" class="text-link">Choose your pet here and select the type of servies you want! </a>
+                        <a href="appointment.html" class="text-link" id="hover"; "leave";>Choose your pet here and select the type of servies you want! </a>
                     </p>
             </div>
         </br>
@@ -100,9 +104,30 @@
                     <p class="center">
                         Join us by creating an account to subscribe to a loyalty program completely free of charge! </br> Earn points by booking appointments which you can use as discounts in our giftshop or even for your appointments!
                     </p>
-                </div>
-            <p class="center">
-                <a href="account.html" class="text-link"> Create an account! </a>
-            </p>
+                  <p class="center">
+                      <a href="account.html" class="text-link"> Create an account! </a>
+                  </p>
+              </div>
+            </div>
+               <p class ="center">
+                  Click here if you are already a member of ours!
+               </p>
+             <div>
+          <div class="center">
+              <button class="center" id="counter">
+                  Click me!
+              </button>
+          </div>
+          <div>
+             <p class="center" id="message">
+                Clicked: 0 times!
+             </p>
+          </div>
+          <div class="center">
+            <button id="show">
+              Show Message
+            </button>
+          </div>
+          <p class="center" id="loop"></p>
     </body>
 </html>
